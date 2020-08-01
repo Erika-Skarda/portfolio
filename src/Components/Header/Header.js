@@ -4,18 +4,21 @@ import { Container,
         Navigation,
         Img, 
         Link, 
-        Nav,
-         WrapperMobile  } from './styled';
+        MenuIconStyled,
+        WrapperMobile  } from './styled';
 
 import { Toolbar, IconButton, Menu } from "@material-ui/core"
-import MenuIcon from '@material-ui/icons/Menu';
+
   
 function Header() {
   
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = useState(null)
   const isMobileMenuOpen = Boolean(mobileMoreAnchorEl)
   
-  const handleMobileMenuOpen = (event) => { setMobileMoreAnchorEl(event.currentTarget)}
+  const handleMobileMenuOpen = (event) => { 
+    setMobileMoreAnchorEl(event.currentTarget)
+    
+  }
   
   const handleMobileMenuClose = () => { setMobileMoreAnchorEl(null) }
 
@@ -55,13 +58,14 @@ function Header() {
                         color="primary"
 
                     >
-                        <MenuIcon color="secondary" />
+                        <MenuIconStyled />
                     </IconButton>
                </WrapperMobile>
            </Toolbar>
 
          
           {renderMobileMenu}
+      
         </Container>
     );
   
