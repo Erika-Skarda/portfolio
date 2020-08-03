@@ -22,7 +22,7 @@ function Header() {
   
   const handleMobileMenuClose = () => { setMobileMoreAnchorEl(null) }
 
-  const mobileMenuId = 'primary-search-account-menu-mobile'
+  const mobileMenuId = "simple-menu"
   const renderMobileMenu =
       <Menu
           anchorEl={mobileMoreAnchorEl}
@@ -32,8 +32,9 @@ function Header() {
           transformOrigin={{ vertical: 'top' }}
           open={isMobileMenuOpen}
           onClose={handleMobileMenuClose}
+          style={{backgroundColor:"transparentx"}}
       >
-           {/* <img src={require("../../img/perfil.png")}></img> */}
+           
               <Link href="#about">quem sou</Link>
               <Link href="#projects">projetos</Link>
               <Link href="#hireme">contato</Link>             
