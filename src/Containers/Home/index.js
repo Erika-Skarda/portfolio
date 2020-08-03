@@ -35,9 +35,9 @@ const Home = () => {
                                 <img src={require("../../img/twi.svg")}></img>
                             </a>
                        
-                            {/* <a href="erikaskarda#9825">
-                                <img src={require("../../img/discord.png")}></img>
-                            </a> */}
+                            <a href="https://api.whatsapp.com/send?phone=+5511944846258">
+                                <img src={require("../../img/whatsapp.svg")}></img>
+                            </a> 
                         
 
                     </WrapperSocialIcon>

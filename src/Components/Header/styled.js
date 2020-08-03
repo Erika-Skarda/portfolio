@@ -38,6 +38,9 @@ export const WrapperMobile = styled.div`
 `
 export const MenuIconStyled = styled(MenuIcon)`
     color:${theme.white};
+        :hover {
+            color:${theme.darkblue};
+        }
    
     
 
@@ -63,13 +66,13 @@ export const Link= styled.a`
         };
 
         @media screen and (max-device-width: 640px){
-        display: flex;
-        font-size: 1.1em;
-        border-bottom:1px solid black;
-        margin-left:2px;
-        padding:5px;
-        /* margin: 1vh 1vw;
-        padding: 1vh 1vw; */
+            
+            display: flex;
+            font-size: 1.1em;
+            border-bottom:1px solid black;
+            margin-left:3px;
+            padding:8px;
+            background-color:"transparent",
     
     }
 

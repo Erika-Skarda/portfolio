@@ -26,7 +26,8 @@ export const theme = {
     darkblue: "#263f8c",
     white: "#ffffff",
     ligthBlue: "#85a9d9",
-    lightpink: "rgba(242, 99, 99, 0.41)"
+    lightpink: "rgba(242, 99, 99, 0.41)",
+    borderButton: "rgba(0, 0, 0, 0.5)",
    
   };
   
