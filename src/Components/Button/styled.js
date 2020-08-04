@@ -12,15 +12,15 @@ export const ButtonStyled  = styled.button `
     color: ${theme.white};
     border-radius:8px;
     width:160px;
-    height: 30px;
-    padding: 0.35em 1em;
+    height: 35px;
+    padding: 0.5em 1em;
     outline: none;
     border: none; 
     box-shadow: 2px 2px 6px ${theme.borderButton};
 
-    
-   
-    background-color: ${theme.pinkred};
+     background-color: ${ props => props.primary ? 
+        `${theme.pinkred}`:`${theme.darkblue}`}; 
+
     overflow: hidden;
     transition: color 0.4s ease-in-out;
   
@@ -40,7 +40,7 @@ export const ButtonStyled  = styled.button `
         }
         
         :hover {
-            color:${theme.ligthBlue};
+            color:${theme.darkblue};
         }
         
         :hover::before {

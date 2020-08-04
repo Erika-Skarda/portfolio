@@ -12,6 +12,7 @@ const Home = () => {
 
     return(
         <Fragment> 
+            <div>
             <Header /> 
             
             <WrapperHome> 
@@ -21,21 +22,21 @@ const Home = () => {
                    
                    </Profile>
                     <WrapperSocialIcon>
-                            <a href="#https://github.com/Erika-Skarda">
+                            <a href="https://github.com/Erika-Skarda" target="blank">
                                 <img src={require("../../img/gitsvg.svg")}></img>
                             </a>
                       
                        
-                            <a href="https://www.linkedin.com/in/erika-skarda">
+                            <a href="https://www.linkedin.com/in/erika-skarda" target="blank">
                                 <img src={require("../../img/link.svg")}></img>
                             </a>
                      
                       
-                            <a href="https://twitter.com/skard0">
+                            <a href="https://twitter.com/skard0" target="blank">
                                 <img src={require("../../img/twi.svg")}></img>
                             </a>
                        
-                            <a href="https://api.whatsapp.com/send?phone=+5511944846258">
+                            <a href="https://api.whatsapp.com/send?phone=+5511944846258" target="blank">
                                 <img src={require("../../img/whatsapp.svg")}></img>
                             </a> 
                         
@@ -53,6 +54,7 @@ const Home = () => {
 
 
             </WrapperHome>
+            </div>
         </Fragment>
        
     )

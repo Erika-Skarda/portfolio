@@ -3,9 +3,6 @@ import { theme } from "../../Theme/styles"
 import Foto from "../../img/foto.jpg";
 
 export const WrapperHome = styled.div`
-    /* display:grid;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows:1fr 1fr; */
 
 
 `;
@@ -24,9 +21,6 @@ export const WrapperTitle = styled.div `
             color:${theme.white};
             -webkit-font-smoothing: antialiased;
 
-              
-            
-             
                 @media screen and (max-device-width: 480px){
                     
                     font-size: 1.25em;
@@ -86,7 +80,6 @@ export const Profile = styled.main`
     background-color:${theme.pinkred};
     z-index:-1;
     
- 
       @media screen and (max-device-width: 640px){
            background-size:cover;
             height:100vh; 

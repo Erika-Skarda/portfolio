@@ -21,6 +21,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 `;
 export const theme = {
+  
     pinkred: "#f26363",
     blush: "#f2c49b",
     darkblue: "#263f8c",
@@ -28,6 +29,7 @@ export const theme = {
     ligthBlue: "#85a9d9",
     lightpink: "rgba(242, 99, 99, 0.41)",
     borderButton: "rgba(0, 0, 0, 0.5)",
+    fadeBlue: "#7b7fbf"
    
   };
   

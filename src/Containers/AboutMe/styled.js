@@ -15,7 +15,6 @@ export const Text = styled.div`
     display: flex;
     flex-direction: column;
     width: 45vw;
-    /* justify-content: center; */
     margin-left: 10vw;
 
       
@@ -69,7 +68,9 @@ export const TextButtonLink = styled.a`
 
     text-decoration:none;
     color:white;
-    margin-top:20px;
+    margin-top:25px;
+    height:0px;
+    width:fit-content;
 `;
 
 export const Separator = styled.span`
