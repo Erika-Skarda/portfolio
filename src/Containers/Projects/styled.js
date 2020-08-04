@@ -1,10 +1,12 @@
 import styled, { keyframes } from "styled-components";
 import { theme } from "../../Theme/styles";
+import { FaGithub } from "react-icons/fa";
+
 
 export const ProjectsContainer = styled.div`
 
     background-color:${theme.fadeBlue};
-    max-width:100vw;
+    max-width:100%;
    
 
   
@@ -25,12 +27,20 @@ export const TextProject = styled.div`
 
 `;
 export const WrapperProject = styled.div`
+
     display:grid;
     grid-template-columns:repeat(2, 1fr);
-    column-gap:10vw;
+    column-gap:8vw;
     padding-top:4vh;
 `;
+export const WrapperProjectRevert = styled.div`
 
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    padding-top:4vh;
+
+      
+`
 export const WrapperProjectText = styled.div`
     margin-left: 20vw;
 
@@ -39,6 +49,8 @@ export const WrapperProjectText = styled.div`
             color:${theme.white};
             letter-spacing:-0.25px;
             margin: revert;
+
+                
             
         };
     h3 {
@@ -54,8 +66,33 @@ export const WrapperProjectText = styled.div`
             font-size:1.1em;
             letter-spacing:-0.16px;
             font-weight:100;
+            line-height: 26px;
 
+    }
+    span {
+
+        display:flex;
+        gap:2vw;
+    }
+    a {
+        text-decoration:none;
     }
 
 `;
+export const StyledFaGithub = styled(FaGithub) `
+
+    margin-left:6px;
+    font-size:1.2em;
+`
 export const WrapperProjectImage = styled.div``
+
+export const WrapperProjectImageRevert = styled.div`
+
+    display:flex;
+    flex-direction:row-reverse;
+
+        img {
+
+            object-fit:contain;
+        }
+ `

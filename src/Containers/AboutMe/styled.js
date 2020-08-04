@@ -15,6 +15,7 @@ export const Text = styled.div`
     display: flex;
     flex-direction: column;
     width: 45vw;
+    word-break:break-all;
     margin-left: 10vw;
 
       
@@ -40,6 +41,8 @@ export const Text = styled.div`
                 margin-bottom: 1vh;
                 text-align: justify;
                 font-weight:100;
+                word-break:break-all;
+                line-height: 26px;
 
                     @media screen and (max-device-width: 1200px){
                         font-size: 1.3em;

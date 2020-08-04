@@ -18,7 +18,7 @@ export const ButtonStyled  = styled.button `
     border: none; 
     box-shadow: 2px 2px 6px ${theme.borderButton};
 
-     background-color: ${ props => props.primary ? 
+     background-color: ${props => props.primary ? 
         `${theme.pinkred}`:`${theme.darkblue}`}; 
 
     overflow: hidden;
@@ -33,14 +33,16 @@ export const ButtonStyled  = styled.button `
             width: 1em;
             height: 1em;
             border-radius: 50%;
+
             background-color: ${theme.ligthBlue};
+
             transform-origin: center;
             transform: translate3d(50%, 50%, 0) scale3d(0, 0, 0);
             transition: transform 0.45s ease-in-out;
         }
         
         :hover {
-            color:${theme.darkblue};
+            background-color: ${theme.lightpink};
         }
         
         :hover::before {
@@ -48,7 +50,7 @@ export const ButtonStyled  = styled.button `
         } 
   `;
 export const IconDownload = styled(GetAppIcon)`
-    /* margin-left:75px;
-    margin-bottom:10px; */
+     margin-left:4px;
+    
     
   `

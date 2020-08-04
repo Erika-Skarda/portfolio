@@ -55,7 +55,9 @@ function AboutMe(props) {
                              
                              texto = {"CV em PDF"}
                              showDowloadIcon = {true}
-                             primary={true}                     > 
+                             primary={true}  
+                             secundary={true} 
+                             hover={true}                 > 
                              
                        </Button>           
                    </TextButtonLink> 

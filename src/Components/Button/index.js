@@ -6,14 +6,18 @@ import { theme } from "../../Theme/styles";
 const Button = (props) => {
 
     return(
-
+       
        <ButtonStyled 
-         // style = 
-         //    {{backgroundColor: props => props.primary ? 
-         //    `${theme.pinkred}`:`${theme.darkblue}` 
-         // }}
+         //  style = 
+         //     {{backgroundColor: props => props.primary ? 
+         //    `${theme.pinkred}`:`${theme.pinkred}` 
+         //  }}
+          style = 
+          {{backgroundColor: 
+         `${theme.pinkred}`
+       }}
          
-        > {props.primary}
+        > 
           {props.texto}
           {props.showDowloadIcon ? <IconDownload /> : "" } 
        </ButtonStyled>
