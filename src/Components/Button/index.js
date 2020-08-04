@@ -7,12 +7,13 @@ const Button = (props) => {
 
     return(
 
-       <ButtonStyled  
-        style = 
-       {{backgroundColor:  props => props.primary ? 
-        `${theme.pinkred}`:`${theme.darkblue}` 
-        }}
-        >
+       <ButtonStyled 
+         // style = 
+         //    {{backgroundColor: props => props.primary ? 
+         //    `${theme.pinkred}`:`${theme.darkblue}` 
+         // }}
+         
+        > {props.primary}
           {props.texto}
           {props.showDowloadIcon ? <IconDownload /> : "" } 
        </ButtonStyled>

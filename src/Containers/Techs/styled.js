@@ -14,13 +14,15 @@ export const WrapperTech = styled.div`
     margin-left:12vw;
     justify-self:center;
     column-gap:10vw;
+    padding-bottom: 5vh;
+    padding-top: 6vh;
+   
 
         @media screen and (max-device-width: 850px){
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             grid-template-rows: 1fr 1fr;
             
-     
         };
      
 `;
@@ -54,16 +56,16 @@ export const Title = styled.h2`
     -webkit-font-smoothing: antialiased;
 
       
-         @media screen and (max-device-width: 1200px){
+        @media screen and (max-device-width: 1200px){
              font-size: 3.5em;
-         }
-                    @media screen and (max-device-width: 850px){
-                        font-size: 2.5em;
-                    }
-                    @media screen and (max-device-width: 640px){
-                        font-size: 2.0em;
-                    }
-    
+         };
+        @media screen and (max-device-width: 850px){
+            font-size: 2.5em;
+        }
+        @media screen and (max-device-width: 640px){
+            font-size: 2.0em;
+        }
+
 
 `;
 

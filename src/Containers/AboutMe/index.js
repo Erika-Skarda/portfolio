@@ -12,6 +12,7 @@ import {
     Heart
    
 } from "./styled"
+import { theme } from "../../Theme/styles";
 
 
 function AboutMe(props) {
@@ -29,8 +30,8 @@ function AboutMe(props) {
                     ]
 
     return (
-        <Fragment>
-            <WrapperAbout>
+        <Fragment >
+            <WrapperAbout id="about">
                 <Text>
                     <div style={{display:"flex", alignItems:"center"}}><h2>Sobre mim</h2><Heart></Heart></div>
                     <h3>Sou Engenheira de Podução formada pela UFF 
@@ -40,8 +41,7 @@ function AboutMe(props) {
                     </h3>
                     <AboutMeContainer>
                         {knowledges && knowledges.map(knowledge => (
-                            <div key={
-                                knowledge}>
+                            <div key={knowledge}>
                                 <Separator>|</Separator>
                                 <Knowledge style={{fontWeight:"bold"}}>{knowledge}</Knowledge>
                             </div>
@@ -55,8 +55,7 @@ function AboutMe(props) {
                              
                              texto = {"CV em PDF"}
                              showDowloadIcon = {true}
-                             primary={true}
-                        > 
+                             primary={true}                     > 
                              
                        </Button>           
                    </TextButtonLink> 

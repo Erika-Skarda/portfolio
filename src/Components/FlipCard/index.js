@@ -1,4 +1,4 @@
-import React, { Component, Fragment} from "react";
+import React from "react";
 import { WrapperAboutMe,
          FlipCardFront,
          FlipCardBack  } from "./styled";
@@ -34,12 +34,11 @@ class FlipCard extends React.Component {
                             color: `${theme.white}`,
                             display: "flex",
                             flexDirection:"flex-end"
-                            // justifyContent: "center",
-                            // alignItems: "center"
+                          
                         }}
-                           src={require("../../img/flor.png")} 
-                            alt="Avatar" 
-                            onClick={this.handleClick}>
+                            onClick={this.handleClick}
+                            src={this.props.image1}>
+                    {this.props.textCardFront}
                     
                     </FlipCardFront>
             
@@ -48,18 +47,13 @@ class FlipCard extends React.Component {
                                 backgroundColor:`${theme.blush}`,
                                 color: `${theme.white}`,
                                 display: "flex",
-                                flexDirection:"flex-end"
-                                // justifyContent: "center",
-                                // alignItems: "center"
+                        
                             }}
-                            src={require("../../img/costa.jpg")} 
-                            alt="Avatar" 
+                            src={this.props.image2}
                             onClick={this.handleClick}> 
+                      {this.props.textCardBack}
                      
                     </FlipCardBack>
-
-            
-                
             </ReactCardFlip>
         </WrapperAboutMe>
     

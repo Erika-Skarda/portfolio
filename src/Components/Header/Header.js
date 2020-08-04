@@ -4,6 +4,7 @@ import { Container,
         Navigation,
         Img, 
         Link, 
+        LinkHome,
         MenuIconStyled,
         WrapperMobile  } from './styled';
 
@@ -32,7 +33,7 @@ function Header() {
           transformOrigin={{ vertical: 'top' }}
           open={isMobileMenuOpen}
           onClose={handleMobileMenuClose}
-          style={{backgroundColor:"transparentx"}}
+          style={{backgroundColor:"transparent"}}
       >
            
               <Link href="#about">quem sou</Link>
@@ -42,7 +43,7 @@ function Header() {
 
     return (
         <Container>
-
+              {/* <LinkHome href="#home">Erika</LinkHome> */}
           <Toolbar>
             <Navigation>
               <Link href="#about">quem sou</Link>

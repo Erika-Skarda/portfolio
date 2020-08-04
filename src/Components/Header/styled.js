@@ -78,6 +78,34 @@ export const Link= styled.a`
 
 
 `;
+export const LinkHome = styled.a`
+    color:${theme.white};
+    z-index:1;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 1vw;
+    font-size: 1.5em;
+   
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.22px;
+    -webkit-font-smoothing: antialiased;
+   
+        &:hover, 
+        &:active {
+            color: ${theme.blush}; 
+        };
+
+        @media screen and (max-device-width: 640px){
+            
+            width:0;
+            display:none;
+    
+    }
+
+
+`;
 
 export const Img = styled.img `
     height: 100%; 
