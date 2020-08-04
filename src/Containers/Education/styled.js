@@ -19,49 +19,18 @@ export const CardLabenu = styled.div`
     background-color:${theme.pinkred};
     display:flex;
     flex-direction:column;
+    padding:18px;
+        @media screen and (max-device-width: 900px){
+       
+          padding:10px;
 
-        p {
-
-            font-size: 2.0em;
-            font-weight:bold;
-            color:${theme.white};
-            margin-bottom: 4vh;
-            text-align:center;
-            font-weight:100;
-
-                @media screen and (max-device-width: 850px){
-
-                    font-size: 1.8em;
-                    margin-bottom: 5vh;
-                
-                };
-                @media screen and (max-device-width: 850px){
-
-                    font-size: 1.5em;
-                    margin-bottom: 5vh;
-
-                };
-        }
-
-        img {
-             
-              width:50%;
-              margin-left:8vw;
-
-                @media screen and (max-device-width: 850px){
-
-                    margin-bottom: 7vh;
-                    width:55%;
-
-                };
-
-        }
-
+        };
 `;
 
 export const CardUFF = styled.div`
 
     background-color:${theme.blush};
+
     
         img {
 

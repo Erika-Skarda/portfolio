@@ -20,6 +20,8 @@ export const WrapperTitle = styled.div `
             text-align:start;
             color:${theme.white};
             -webkit-font-smoothing: antialiased;
+            word-break:break-all;
+
 
                 @media screen and (max-device-width: 480px){
                     
@@ -56,6 +58,8 @@ export const Name = styled.h1`
     color:${theme.white};
     font-size: 4em;
     margin-bottom:10px;
+    word-break:break-all;
+
                     
         @media screen and (max-device-width: 1200px){
             
