@@ -1,1 +1,59 @@
 # portfolio
+
+
+ <p align="center" >
+  <img width="20%" src="https://i.imgur.com/MagoMtL.png" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT" /
+  <img src="https://img.shields.io/static/v1?label=javascript&message=language&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/>
+  <img src="https://img.shields.io/static/v1?label=styled-component&message=library&color=pink&style=for-the-badge&logo=STYLED-COMPONENTS"/>
+  <img src="https://img.shields.io/static/v1?label=material-ui&message=library&color=blue&style=for-the-badge&logo=MATERIAL-UI"/>
+</p>
+
+> Status do Projeto: Concluído :heavy_check_mark:  
+
+
+## Deploy
+
+<p align="justify">
+  O deploy do projeto foi realizado no firebase e encontra-se disponivel em: <b>https://portfolio-erika.vercel.app/</b>
+</p>
+
+## Pré-requisitos
+
+:warning: [Node](https://nodejs.org/en/download/)
+
+:warning: [Npm](https://www.npmjs.com/)
+
+## Como rodar a aplicação :arrow_forward:
+
+No terminal, clone o projeto: 
+
+```
+git clone https://github.com/Erika-Skarda/portfolio
+```
+Entre no projeto e instale as dependências através do comando:
+```
+npm install
+```
+Por último, suba a aplicação: 
+```
+npm start
+```
+
+## Linguagens, dependencias e libs utilizadas :books:
+
+- [Node](https://nodejs.org/en/)
+- [React](https://pt-br.reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [Styled Components](https://styled-components.com/)
+- [Axios](https://alligator.io/react/axios-react/)
+- [Material ui](https://material-ui.com/pt/)
+- [AWS](https://firebase.google.com/)
+
+## Desenvolvido Por :octocat:
+
+| [Likedin](https://www.linkedin.com/in/erika-skarda-99915488/) | 
+| :---: |
