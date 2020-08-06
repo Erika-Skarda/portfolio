@@ -51,6 +51,6 @@ npm start
 
 
  
-| :---: |
+
 | [Likedin](https://www.linkedin.com/in/erika-skarda) | 
-| :---: |
+
