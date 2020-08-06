@@ -2,10 +2,10 @@
 </br>
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT" /
-   <img src="https://img.shields.io/static/v1?label=javascript&message=language&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/>
+ 
    <img src="https://img.shields.io/static/v1?label=styled-component&message=library&color=pink&style=for-the-badge&logo=STYLED-COMPONENTS"/>
   <img src="https://img.shields.io/static/v1?label=material-ui&message=library&color=blue&style=for-the-badge&logo=MATERIAL-UI"/>
-</p>
+</p>  <img src="https://img.shields.io/static/v1?label=javascript&message=language&color=yellow&style=for-the-badge&logo=JAVASCRIPT"/>
 </br>
 > Status do Projeto: Concluído :heavy_check_mark:  
 
