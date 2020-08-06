@@ -37,6 +37,7 @@ function Header() {
       >
            
               <Link href="#about">quem sou</Link>
+              <Link href="#education">educação</Link>
               <Link href="#projects">projetos</Link>
               <Link href="#hireme">contato</Link>             
       </Menu>
@@ -47,6 +48,7 @@ function Header() {
           <Toolbar>
             <Navigation>
               <Link href="#about">quem sou</Link>
+              <Link href="#education">educação</Link>
               <Link href="#projects">projetos</Link>
               <Link href="#hireme">contato</Link>        
             </Navigation>

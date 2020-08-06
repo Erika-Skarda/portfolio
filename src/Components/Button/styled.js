@@ -34,7 +34,8 @@ export const ButtonStyled  = styled.button `
             height: 1em;
             border-radius: 50%;
 
-            background-color: ${theme.ligthBlue};
+            background-color: ${props => props.secundary ? 
+           `${theme.blush}`:`${theme.ligthBlue}`}; 
 
             transform-origin: center;
             transform: translate3d(50%, 50%, 0) scale3d(0, 0, 0);
@@ -42,7 +43,8 @@ export const ButtonStyled  = styled.button `
         }
         
         :hover {
-            background-color: ${theme.lightpink};
+            background-color: ${props => props.hover? 
+           `${theme.blush}`:`${theme.ligthBlue}`}; 
         }
         
         :hover::before {

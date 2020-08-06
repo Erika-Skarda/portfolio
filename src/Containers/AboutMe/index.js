@@ -12,7 +12,6 @@ import {
     Heart
    
 } from "./styled"
-import { theme } from "../../Theme/styles";
 
 
 function AboutMe(props) {

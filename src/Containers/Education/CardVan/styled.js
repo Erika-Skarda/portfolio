@@ -3,8 +3,7 @@ import { theme } from "../../../Theme/styles";
 import { RiArrowGoForwardLine } from "react-icons/ri";
 
 export const FlipCardBack = styled.div`
-     min-height:100%;
-     width:100%;
+   
         @media screen and (max-device-width: 850px){
 
                 
@@ -74,8 +73,9 @@ export const FlipCardBack = styled.div`
 
 export const FlipCardFront = styled.div`
 
-    width:100%;
-    min-height:100%;
+    display:flex;
+    flex-direction:row;
+    gap:4vw;
 
        
             :first-child {
@@ -85,6 +85,7 @@ export const FlipCardFront = styled.div`
                 color:${theme.white};
                 text-align:center;
                 margin:20px 0;
+              
 
                 @media screen and (max-device-width: 1200px){
 
@@ -110,8 +111,9 @@ export const FlipCardFront = styled.div`
 
         img {
              
-              width:60%;
-              margin-top:1ch;
+              width:65%;
+              margin-top:3ch;
+              margin-left:5vw;
 
                 @media screen and (max-device-width: 900px){
 
@@ -125,6 +127,7 @@ export const FlipCardFront = styled.div`
              
 `;
 export const StyledRiArrowGoForwardLine = styled(RiArrowGoForwardLine)`
+  margin-left: -3vw;
 
     :hover {
 

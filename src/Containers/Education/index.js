@@ -3,9 +3,9 @@ import { ContainerEducation,
         CardLabenu,
         CardUFF,
         CardVan } from "./styled";
-import uff from "../../img/uff.png";
-import vanzolini from "../../img/vanzolini.png";
 import FlipCardLabenu from "./CardLabenu/index"
+import FlipCardUFF from "./CardUFF";
+import FlipCardVan from "./CardVan"
 
 class Education extends React.Component {
     constructor() {
@@ -19,14 +19,11 @@ class Education extends React.Component {
   render() {
 
     return(
-        <ContainerEducation id="Educacao">
+        <ContainerEducation id="education">
            
-
             <CardUFF>
-            <img 
-                 src={uff}
-                 alt="Logo da UFF"
-                />
+
+                <FlipCardUFF />
 
             </CardUFF>
             
@@ -37,10 +34,8 @@ class Education extends React.Component {
             </CardLabenu>
 
             <CardVan>
-                <img 
-                 src={vanzolini}
-                 alt="Logo da Vanzolini"
-                />
+              
+                <FlipCardVan />
 
             </CardVan>
 

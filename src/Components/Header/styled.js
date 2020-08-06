@@ -27,16 +27,19 @@ export const Navigation = styled.nav`
 
 export const WrapperMobile = styled.div`
     display: none;
+    
 
 
     @media screen and (max-device-width: 640px){
         display: flex;
+       
 
         
     }
 
 `
 export const MenuIconStyled = styled(MenuIcon)`
+    z-index:10;
     color:${theme.white};
         :hover {
             color:${theme.darkblue};
