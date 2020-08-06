@@ -53,5 +53,5 @@ npm start
 
 ## Linkedin
 
-| [Likedin](https://www.linkedin.com/in/erika-skarda) | 
+[Likedin](https://www.linkedin.com/in/erika-skarda) 
 
