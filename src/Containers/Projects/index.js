@@ -30,6 +30,10 @@ function Projects() {
                   
                         <h1>Labook</h1>
                         <h3>Back-end</h3>
+                        <a href=" https://tchnezbuic.execute-api.us-east-1.amazonaws.com/dev" target="blank">
+                            <small >deploy</small>
+                        </a>
+                       
                         <p>
                             A API Labook foi criada para ser usada como uma rede social
                             com o objetivo de promover a conexão e interação entre seus mais 
