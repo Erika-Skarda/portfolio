@@ -47,8 +47,10 @@ npm start
 
 ## Desenvolvido Por :octocat:
 
-https://avatars1.githubusercontent.com/u/60902843?s=400&u=fca9219fa3416ab4b849077b9248f71d44133283&v=4
- | 
+| [<img src="https://avatars1.githubusercontent.com/u/60902843?s=400&u=fca9219fa3416ab4b849077b9248f71d44133283&v=4" width=115><br><sub>Erika Skarda</sub>](https://www.linkedin.com/in/erika-skarda/) | 
+
+
+ 
 | :---: |
 | [Likedin](https://www.linkedin.com/in/erika-skarda) | 
 | :---: |
