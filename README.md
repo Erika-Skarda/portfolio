@@ -16,7 +16,7 @@
 ## Deploy
 
 <p align="justify">
-  O deploy do projeto foi realizado no vercer e encontra-se disponivel em: <b>https://portfolio-erika.vercel.app/</b>
+  O deploy do projeto foi realizado no vercel e encontra-se disponivel em: <b>https://portfolio-erika.vercel.app/</b>
 </p>
 
 ## Pré-requisitos
