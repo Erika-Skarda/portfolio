@@ -1,7 +1,7 @@
 # Portfólio :rocket:
 </br>
 <p align="center">
-    <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT" /
+    <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT" />
     <img src="https://img.shields.io/static/v1?label=material-ui&message=library&color=blue&style=for-the-badge&logo=MATERIAL-UI"/>
 </p>  
 </br>
