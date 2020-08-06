@@ -45,8 +45,10 @@ npm start
 - [Axios](https://alligator.io/react/axios-react/)
 - [Material ui](https://material-ui.com/pt/)
 
-
 ## Desenvolvido Por :octocat:
 
-| [Likedin](https://www.linkedin.com/in/erika-skarda-99915488/) | 
+https://avatars1.githubusercontent.com/u/60902843?s=400&u=fca9219fa3416ab4b849077b9248f71d44133283&v=4
+ | 
+| :---: |
+| [Likedin](https://www.linkedin.com/in/erika-skarda) | 
 | :---: |
