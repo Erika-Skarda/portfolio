@@ -18,8 +18,6 @@
 
 ## Pré-requisitos
 
-:warning: [Node](https://nodejs.org/en/download/)
-
 :warning: [Npm](https://www.npmjs.com/)
 
 ## Como rodar a aplicação :arrow_forward:
@@ -40,13 +38,13 @@ npm start
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
-- [Node](https://nodejs.org/en/)
+
 - [React](https://pt-br.reactjs.org/)
 - [Redux](https://redux.js.org/)
 - [Styled Components](https://styled-components.com/)
 - [Axios](https://alligator.io/react/axios-react/)
 - [Material ui](https://material-ui.com/pt/)
-- [AWS](https://firebase.google.com/)
+
 
 ## Desenvolvido Por :octocat:
 
