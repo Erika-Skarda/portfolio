@@ -119,7 +119,7 @@ export const StyledAvatar = styled.img`
             border:none;
         }
         `;
-const batidao = keyframes `
+const HeartBeat = keyframes `
 
     0% {transform:  rotate(45deg) scale(1);}
     25% {transform:  rotate(45deg) scale(1);}
@@ -136,7 +136,7 @@ export const Heart = styled.div `
     height: 20px;
     background-color: ${theme.pinkred};
     transform: rotate(45deg);
-    animation: ${batidao} 1.4s linear infinite;
+    animation: ${HeartBeat } 1.4s linear infinite;
 
 :before {
 

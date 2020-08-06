@@ -17,8 +17,7 @@ const Button = (props) => {
          `${theme.pinkred}`
        }}
          
-        > 
-          {props.texto}
+        >           {props.texto}
           {props.showDowloadIcon ? <IconDownload /> : "" } 
        </ButtonStyled>
        

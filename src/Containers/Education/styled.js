@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { theme } from "../../Theme/styles";
 
 export const ContainerEducation = styled.div`
@@ -6,14 +6,8 @@ export const ContainerEducation = styled.div`
    justify-self:center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* margin-right:12vw;
-    margin-left:12vw;
-   ;
-    column-gap:10vw; */
-
-
+ 
 `
-
 export const CardLabenu = styled.div`
   
     background-color:${theme.pinkred};
@@ -30,20 +24,15 @@ export const CardLabenu = styled.div`
 export const CardUFF = styled.div`
 
     background-color:${theme.blush};
+    display:flex;
+    flex-direction:column;
+    padding:15px;
 
-    
-        img {
+        @media screen and (max-device-width: 900px){
+       
+          padding:10px;
 
-            margin-left: 7vw;
-            width: 53%;
-            margin-top: 5vh;
-
-            @media screen and (max-device-width: 850px){
-
-                margin-top:10vh;
-
-            };
-        }
+        };
 `;
 
 export const CardVan = styled.div`

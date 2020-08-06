@@ -1,5 +1,5 @@
 import React from "react";
-import { WrapperAboutMe,
+import { 
          FlipCardFront,
          FlipCardBack,
          StyledRiArrowGoForwardLine  } from "./styled";
@@ -52,9 +52,7 @@ class FlipCardLabenu extends React.Component {
                                 src={labenuLogo}
                                 alt="Logo da Labenu"
                            > 
-                                {/* <a href="https://github.com/Erika-Skarda" target="blank">
-                                    
-                                </a> */}
+                               
                           </img>
                           <p>Curso Web Full-Stack Labenu</p>
 
