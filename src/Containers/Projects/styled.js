@@ -34,7 +34,7 @@ export const TextProject = styled.div`
             color:${theme.white};
             letter-spacing:-0.15px;
             font-weight:100;
-            padding-top:3.5vh;
+            padding-top:13.5vh;
         };
 
     span::before {
@@ -60,6 +60,7 @@ export const WrapperProject = styled.div`
 
             width:100%;
             column-gap: 5vw;
+            margin-right: 14.5vw;
             
         }
         @media screen and (max-device-width: 880px) {
@@ -68,9 +69,16 @@ export const WrapperProject = styled.div`
             grid-template-rows:repeat(1, 1fr);
             grid-template-columns: repeat(1, 1fr);
         }
+        @media screen and (max-device-width: 480px) {
+
+            display:grid;
+            grid-template-rows:repeat(1, 1fr);
+            grid-template-columns: repeat(1, 1fr); 
+            margin-right: 45.5vw;
+        }
 
 
-  
+       
 `;
 export const WrapperProjectRevert = styled.div`
 
@@ -99,7 +107,15 @@ export const WrapperProjectRevert = styled.div`
             grid-template-rows:repeat(1, 1fr);
             grid-template-columns: repeat(1, 1fr);
         }
-            
+        
+        span {
+
+            @media screen and (max-device-width: 440px) {
+                margin-left: -7vw;
+
+            }
+
+        }
 `;
 export const WrapperProjectText = styled.div`
 
@@ -269,7 +285,7 @@ export const WrapperProjectTextRevert = styled.div `
             }
 
         }
-    }
+    };
 `
 export const StyledFaGithub = styled(FaGithub) `
 

@@ -105,7 +105,7 @@ export const FlipCardFront = styled.div`
                  
 
                 };
-                @media screen and (max-device-width: 480px){
+                @media screen and (max-device-width: 500px){
 
                  font-size:1.2em;
 
@@ -121,8 +121,8 @@ export const FlipCardFront = styled.div`
 
                 @media screen and (max-device-width: 900px){
 
-                   
-                    width:55%;
+                    margin-top: 3ch;
+                    width:65%;
 
                 };
 

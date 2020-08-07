@@ -119,7 +119,7 @@ export const FlipCardFront = styled.div`
 
                    
                     width:62%;
-                    
+                    margin-top:6ch;
 
                 };
 
@@ -140,7 +140,7 @@ export const StyledRiArrowGoForwardLine = styled(RiArrowGoForwardLine)`
     @media screen and (max-device-width: 880px){
 
         margin-left: -18px;
-        margin-top: 6px;
+        margin-top: 5px;
 
 
         };

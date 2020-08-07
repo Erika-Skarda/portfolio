@@ -6,6 +6,13 @@ export const ContainerEducation = styled.div`
    justify-self:center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
+    @media screen and (max-device-width: 900px){
+       
+     height:250px;
+     align-self:center;
+
+     };
  
 `
 export const CardLabenu = styled.div`
@@ -38,7 +45,8 @@ export const CardUFF = styled.div`
 export const CardVan = styled.div`
 
     background-color:${theme.ligthBlue};
-
+    display:flex;
+    flex-direction:column;
     
          img {
 

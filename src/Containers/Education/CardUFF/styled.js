@@ -4,6 +4,7 @@ import { RiArrowGoForwardLine } from "react-icons/ri";
 
 export const FlipCardBack = styled.div`
      min-height:100%;
+   
      width:100%;
         @media screen and (max-device-width: 850px){
 
@@ -77,7 +78,7 @@ export const FlipCardFront = styled.div`
   
     display:flex;
     flex-direction:row;
-    gap:6vw;
+    gap:2px;
 
        
             :first-child {
@@ -120,6 +121,7 @@ export const FlipCardFront = styled.div`
 
                    
                     width:55%;
+                    margin-top: 4ch;
 
                 };
 
