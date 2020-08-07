@@ -115,10 +115,11 @@ export const FlipCardFront = styled.div`
               margin-top:3ch;
               margin-left:5vw;
 
-                @media screen and (max-device-width: 900px){
+                @media screen and (max-device-width: 880px){
 
                    
-                    width:55%;
+                    width:62%;
+                    
 
                 };
 
@@ -127,11 +128,20 @@ export const FlipCardFront = styled.div`
              
 `;
 export const StyledRiArrowGoForwardLine = styled(RiArrowGoForwardLine)`
-  margin-left: -3vw;
+      margin-left: -20px;
+      margin-top: 10px;
 
     :hover {
 
             color:${theme.darkblue};
             cursor: pointer;
     }
+
+    @media screen and (max-device-width: 880px){
+
+        margin-left: -18px;
+        margin-top: 6px;
+
+
+        };
 `;

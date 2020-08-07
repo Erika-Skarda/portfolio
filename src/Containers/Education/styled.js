@@ -43,12 +43,13 @@ export const CardVan = styled.div`
          img {
 
             margin-left: 2vw;
-            width: 88%;
+            width: 90%;
             margin-top: 8vh;
 
-                @media screen and (max-device-width: 850px){
+                @media screen and (max-device-width: 880px){
 
                     margin-top: 10vh;
+                    width:100%;
                   
 
                 };
