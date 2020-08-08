@@ -178,7 +178,7 @@ function Projects() {
                                 <ButtonStyled 
                                     primary={false}
                                     secundary={false}
-                                    style={{width:"180px",
+                                    style={{width:"160px",
                                             height:"50px"}}
                                 
                                     > 
@@ -189,7 +189,7 @@ function Projects() {
                             <ButtonStyled 
                                     primary={false}
                                     secundary={false}
-                                    style={{width:"180px",
+                                    style={{width:"160px",
                                             height:"50px"}}
                                 
                                     > 

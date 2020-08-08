@@ -77,7 +77,23 @@ export const WrapperProject = styled.div`
             margin-right: 45.5vw;
         }
 
+        span {
 
+            @media screen and (max-device-width: 440px) {
+                margin-left: -7vw;
+
+            }
+            @media screen and (max-device-width: 400px) {
+                margin-left: -8vw;
+
+            }
+            @media screen and (max-device-width: 360px) {
+                margin-left: -12vw;
+
+            }
+
+
+        }
        
 `;
 export const WrapperProjectRevert = styled.div`
@@ -114,8 +130,23 @@ export const WrapperProjectRevert = styled.div`
                 margin-left: -7vw;
 
             }
+            @media screen and (max-device-width: 400px) {
+                margin-left: -8vw;
 
+            }
+
+            @media screen and (max-device-width: 380px) {
+                margin-left: -12vw;
+
+            }
+            @media screen and (max-device-width: 360px) {
+                margin-left: -13vw;
+
+            }
         }
+
+    
+        
 `;
 export const WrapperProjectText = styled.div`
 
