@@ -65,7 +65,7 @@ export const AboutMeContainer = styled.div`
 
     display: flex;
     flex-wrap: wrap;
-    margin: 4vh 0;
+    margin: 3.5vh 0;
 `;
 export const TextButtonLink = styled.a`
 

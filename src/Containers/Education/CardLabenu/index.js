@@ -57,11 +57,10 @@ class FlipCardLabenu extends React.Component {
                           <p>Curso Web Full-Stack Labenu</p>
 
                           <p>Curso de Desenvolvimento Web Full-Stack - 1º semestre 2020</p>
-                            <p>
+                            {/* <p>
                               Curso completo de desenvolvimento web, com duração de 6 meses em tempo integral, 
-                              somando mais de 1000 horas de código, com aulas práticas e em tempo real (via-online). 
-                              Entre o conhecimento passado se destacam as tecnologias de React, JavaScript e NodeJS.
-                          </p>
+                              somando mais de 1000 horas de código.
+                          </p> */}
                     </FlipCardBack>
             </ReactCardFlip>
       

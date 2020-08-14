@@ -49,11 +49,11 @@ class FlipCardVan extends React.Component {
                             <p>Fundação Vanzolini</p>
 
                             <p>Curso de Capacitação em Gestão da Qualidade e de Processos - 2º semestre de 2019</p>
-                            <p>
+                            {/* <p>
                             O Curso de Capacitação em Gestão da Qualidade e de Processos capacita o participante nas mais modernas
                             metodologias, ferramentas e práticas de Gestão da Qualidade e Gestão por Processos e torna-o apto a melhorar sistemas,
                             processos, atividades e, consequentemente, obter ganhos de desempenho na organização onde atua.
-                          </p>
+                          </p> */}
                     </FlipCardBack>
             </ReactCardFlip>
       

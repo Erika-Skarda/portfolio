@@ -137,4 +137,9 @@ export const StyledRiArrowGoForwardLine = styled(RiArrowGoForwardLine)`
             color:${theme.darkblue};
             cursor: pointer;
     }
+    @media screen and (max-device-width: 410px){
+
+        display:none;
+
+    };
 `;
