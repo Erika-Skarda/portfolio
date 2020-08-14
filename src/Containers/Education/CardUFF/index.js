@@ -38,7 +38,7 @@ class FlipCardUFF extends React.Component {
                             src={uff}
                             alt="Logo da UFF"
                         />
-                        <StyledRiArrowGoForwardLine/>  
+                        {/* <StyledRiArrowGoForwardLine/>   */}
                     
                     </FlipCardFront>
             

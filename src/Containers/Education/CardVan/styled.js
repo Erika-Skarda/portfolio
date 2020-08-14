@@ -111,9 +111,8 @@ export const FlipCardFront = styled.div`
 
         img {
              
-              width:65%;
-              margin-top:3ch;
-              margin-left:5vw;
+              width:85%;
+          
 
                 @media screen and (max-device-width: 880px){
 

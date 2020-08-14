@@ -3,45 +3,32 @@ import { theme } from "../../Theme/styles";
 import { FaGithub } from "react-icons/fa";
 
 
-export const ProjectsContainer = styled.div`
+// export const ProjectsContainer = styled.div`
 
-    background-color:${theme.fadeBlue};
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+//     background-color:${theme.fadeBlue};
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
 
-`;
+// `;
 
-export const animation = keyframes `
-    {
-        0% {content: '💻'}
 
-        50%{content: '🚀';}
-
-        100%{content: '📱';}
-    }
-
-`;
-export const TextProject = styled.div`
+// export const TextProject = styled.div`
     
-    margin-bottom: 5vh;
+//     margin-bottom: 5vh;
 
-    h3 {
-            font-size: 2.5em;
-            text-align: center;
-            margin:0;
-            color:${theme.white};
-            letter-spacing:-0.15px;
-            font-weight:100;
-            padding-top:13.5vh;
-        };
+//     h3 {
+//             font-size: 2.5em;
+//             text-align: center;
+//             margin:0;
+//             color:${theme.white};
+//             letter-spacing:-0.15px;
+//             font-weight:100;
+//             padding-top:13.5vh;
+//         };
 
-    span::before {
-        content: '';
-        animation: ${animation} 3s infinite;
-    }
-`;
+// `;
 export const WrapperProject = styled.div`
 
     display:grid;
@@ -50,44 +37,44 @@ export const WrapperProject = styled.div`
     width: 90%;
     margin-top:2vh;
 
-        @media screen and (max-device-width: 1200px) {
+        @media screen and (max-width: 1200px) {
 
             width:100%;
             column-gap: 10vw;
             margin-right:12vw;
         }
-        @media screen and (max-device-width: 980px) {
+        @media screen and (max-width: 980px) {
 
             width:100%;
             column-gap: 5vw;
             margin-right: 14.5vw;
             
         }
-        @media screen and (max-device-width: 880px) {
+        @media screen and (max-width: 880px) {
 
             display:grid;
             grid-template-rows:repeat(1, 1fr);
             grid-template-columns: repeat(1, 1fr);
         }
-        @media screen and (max-device-width: 480px) {
+        @media screen and (max-width: 640px) {
 
             display:grid;
             grid-template-rows:repeat(1, 1fr);
             grid-template-columns: repeat(1, 1fr); 
-            margin-right: 45.5vw;
+          
         }
 
         span {
 
-            @media screen and (max-device-width: 440px) {
+            @media screen and (max-width: 440px) {
                 margin-left: -7vw;
 
             }
-            @media screen and (max-device-width: 400px) {
+            @media screen and (max-width: 400px) {
                 margin-left: -8vw;
 
             }
-            @media screen and (max-device-width: 360px) {
+            @media screen and (max-width: 360px) {
                 margin-left: -12vw;
 
             }
@@ -104,19 +91,19 @@ export const WrapperProjectRevert = styled.div`
     width: 90%;
     padding-top:5vh;
 
-        @media screen and (max-device-width: 1200px) {
+        @media screen and (max-width: 1200px) {
 
             width:100%;
             column-gap: 10vw;
           
         }
-        @media screen and (max-device-width: 980px) {
+        @media screen and (max-width: 980px) {
 
             width:100%;
             column-gap: 8vw;
 
         }
-        @media screen and (max-device-width: 880px) {
+        @media screen and (max-width: 880px) {
 
             display:grid;
             
@@ -126,20 +113,20 @@ export const WrapperProjectRevert = styled.div`
         
         span {
 
-            @media screen and (max-device-width: 440px) {
+            @media screen and (max-width: 440px) {
                 margin-left: -7vw;
 
             }
-            @media screen and (max-device-width: 400px) {
+            @media screen and (max-width: 400px) {
                 margin-left: -8vw;
 
             }
 
-            @media screen and (max-device-width: 380px) {
+            @media screen and (max-width: 380px) {
                 margin-left: -12vw;
 
             }
-            @media screen and (max-device-width: 360px) {
+            @media screen and (max-width: 360px) {
                 margin-left: -13vw;
 
             }
@@ -152,8 +139,8 @@ export const WrapperProjectText = styled.div`
 
     width: 65%;
     margin: auto;
-    margin-right:-1.5vw;
-    @media screen and (max-device-width: 1200px) {
+    
+    @media screen and (max-width: 1200px) {
 
        
        
@@ -166,7 +153,7 @@ export const WrapperProjectText = styled.div`
             margin: revert;
             text-shadow: 0.1em 0.1em 0.3em black;
 
-            @media screen and (max-device-width: 980px) {
+            @media screen and (max-width: 980px) {
 
                 font-size:2.9em;
 
@@ -182,7 +169,7 @@ export const WrapperProjectText = styled.div`
             font-weight:100;
             margin: unset;
 
-                @media screen and (max-device-width: 980px) {
+                @media screen and (max-width: 980px) {
 
                     font-size:1.8em;
 
@@ -197,7 +184,7 @@ export const WrapperProjectText = styled.div`
             letter-spacing:-0.16px;
             font-weight:100;
             line-height: 26px;
-                @media screen and (max-device-width: 980px) {
+                @media screen and (max-width: 980px) {
 
                     font-size:1em;
 
@@ -208,6 +195,13 @@ export const WrapperProjectText = styled.div`
 
         display:flex;
         gap:2vw;
+
+            @media screen and (max-width: 400px) {
+                display:flex;
+                flex-direction:column;     
+
+            }
+
     }
     a {
         text-decoration:none;
@@ -239,7 +233,7 @@ export const WrapperProjectTextRevert = styled.div `
     margin: auto;
     margin-right: 10.5vw;
 
-    @media screen and (max-device-width: 1200px) {
+    @media screen and (max-width: 1200px) {
 
         margin-right:16vw;
 
@@ -252,7 +246,7 @@ export const WrapperProjectTextRevert = styled.div `
             margin: revert;
             text-shadow: 0.1em 0.1em 0.3em black;
 
-                @media screen and (max-device-width: 980px) {
+                @media screen and (max-width: 980px) {
 
                     font-size:2.9em;
 
@@ -268,7 +262,7 @@ export const WrapperProjectTextRevert = styled.div `
             font-weight:100;
             margin: unset;
 
-                @media screen and (max-device-width: 980px) {
+                @media screen and (max-width: 980px) {
 
                     font-size:1.8em;
 
@@ -282,7 +276,7 @@ export const WrapperProjectTextRevert = styled.div `
             font-weight:100;
             line-height: 26px;
 
-                @media screen and (max-device-width: 980px) {
+                @media screen and (max-width: 980px) {
 
                         font-size:1em;
 
@@ -295,6 +289,11 @@ export const WrapperProjectTextRevert = styled.div `
 
         display:flex;
         gap:2vw;
+             @media screen and (max-width: 400px) {
+                display:flex;
+                flex-direction:column;     
+
+             }
     }
     a {
         text-decoration:none;
@@ -330,15 +329,15 @@ export const WrapperProjectImage = styled.div`
     cursor:pointer;
 
 
-        @media screen and (max-device-width: 1200px) {
+        @media screen and (max-width: 1200px) {
 
             width:70%;
         }
-        @media screen and (max-device-width: 980px) {
+        @media screen and (max-width: 980px) {
 
             width:60%;
         }
-        @media screen and (max-device-width: 880px) {
+        @media screen and (max-width: 880px) {
 
            display:none;
         }
@@ -361,12 +360,12 @@ export const WrapperProjectImageRevert = styled.div`
             cursor:pointer;
               
         }
-        @media screen and (max-device-width: 1200px) {
+        @media screen and (max-width: 1200px) {
 
              width:70%;
              margin-left:8vw;
         }
-        @media screen and (max-device-width: 880px) {
+        @media screen and (max-width: 880px) {
 
             display:none;
         }

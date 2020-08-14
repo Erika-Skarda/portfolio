@@ -33,7 +33,7 @@ export const CardUFF = styled.div`
     background-color:${theme.blush};
     display:flex;
     flex-direction:column;
-    padding:15px;
+    padding:18px;
 
         @media screen and (max-device-width: 900px){
        
@@ -47,6 +47,7 @@ export const CardVan = styled.div`
     background-color:${theme.ligthBlue};
     display:flex;
     flex-direction:column;
+    padding:18px;
     
          img {
 

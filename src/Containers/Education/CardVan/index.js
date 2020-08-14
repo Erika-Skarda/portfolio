@@ -37,9 +37,9 @@ class FlipCardVan extends React.Component {
                          <img 
                                 src={vanzolini}
                                 alt="Logo da Vanzolini"
-                           > 
+                           /> 
                                
-                          </img> <StyledRiArrowGoForwardLine/>
+                           {/* <StyledRiArrowGoForwardLine/> */}
                            
                     
                     </FlipCardFront>

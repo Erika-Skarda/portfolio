@@ -1,29 +1,38 @@
 import React from "react";
-import { ProjectsContainer,
-         TextProject,
+import { 
+        //  ProjectsContainer,
+        //  TextProject,
          WrapperProject,
          WrapperProjectText,
          StyledFaGithub,
          WrapperProjectImage,
          WrapperProjectTextRevert,
          WrapperProjectRevert,
-         WrapperProjectImageRevert } from "./styled";
+         WrapperProjectImageRevert,
+        Span } from "./styled";
 import computer from "../../img/img1.png";
 import tablet from "../../img/img2.png";
 import celular from '../../img/img3.png';
 import {ButtonStyled} from "../../Components/Button/styled";
 import { FaGithub } from "react-icons/fa";
 import { theme } from "../../Theme/styles";
-
+import Section from  "../../Components/section";
 
 function Projects() {
 
     return(
 
-        <ProjectsContainer id="projects">
-             <TextProject>
-                <h3>Meus Projetos<span></span></h3>
-            </TextProject>
+        // <ProjectsContainer id="projects">
+        //      <TextProject>
+        //         <h3>Meus Projetos<span></span></h3>
+        //     </TextProject>
+            <Section
+                id="projects"
+                bgColor = {theme.fadeBlue}
+                textColor = {theme.white}
+                title = "Meus Projetos"
+                showAnimation = {true}
+            >
 
             <WrapperProject>
                 <WrapperProjectText>
@@ -201,7 +210,7 @@ function Projects() {
                 </WrapperProjectTextRevert> 
           </WrapperProjectRevert>
 
-        </ProjectsContainer>
+        </Section>
     )
 }
 

@@ -6,13 +6,19 @@ import { WrapperTech,
         Title,
         SubTitle
  } from "./styled";
+ import { theme } from "../../Theme/styles";
+import Section from  "../../Components/section";
 
 const Tech = () => {
-
-
     return (
 
-        <Fragment>
+        <Section
+            id="skills"
+            bgColor = {theme.darkblue}
+            textColor = {theme.white}
+            title = "Habilidades Técnicas"
+        >
+        
             <Container>
                 <WrapperTech>
                     <FrontendContainer>
@@ -41,7 +47,7 @@ const Tech = () => {
                     </BackendContainer>
                 </WrapperTech>
             </Container>
-        </Fragment>
+        </Section>
 
 
 
